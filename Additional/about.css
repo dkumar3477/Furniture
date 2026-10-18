@@ -118,7 +118,7 @@ img {
 
 .main-page {
     width: 100%;
-    min-height: 420px;
+    height: 480px;
     background: #3b6256;
     display: flex;
     align-items: center;

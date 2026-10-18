@@ -118,7 +118,7 @@ img {
 .main-page {
     background: #3b6256;
     width: 100%;
-    min-height: 420px;
+    height: 420px;
     padding: 40px 6%;
     display: flex;
     align-items: center;
@@ -175,20 +175,26 @@ img {
     border-color: white;
 }
 
+/* Sofa */
+
 .shofa-img {
-    width: 55%;
     position: relative;
-    margin: 0;
-    min-width: 0;
+    margin-left:-40px ;
+    margin-top: 30px;
 }
 
-.white-dots {
-    position: absolute;
-    width: 40%;
-    height: auto;
-    right: 0;
-    top: -15px;
-    z-index: 0;
+/* White Dots */
+
+.shofa-img{
+    .white-dots{
+    position:absolute;
+    width:250px;
+    height:299px;
+    margin-top:-10px;
+    left:400px;
+    object-fit:contain;
+    z-index:0;
+  }
 }
 
 .main-img {
